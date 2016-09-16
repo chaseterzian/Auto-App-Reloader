@@ -32,31 +32,31 @@ $('document').ready(function() {
 					console.log("UN-Loading Gearbox");
 				},15000);
 			} else if (currentSecond == 21) {
-				document.getElementById('app-loader').src = "https://whiteboard-rails.herokuapp.com/";
-				document.getElementById('app-detail-printout').innerHTML = "Loading Whiteboard-Rails";
+				document.getElementById('app-loader2').src = "https://whiteboard-rails.herokuapp.com/";
+				document.getElementById('app-detail-printout2').innerHTML = "Loading Whiteboard-Rails";
 				console.log("Loading Whiteboard-Rails");
 				setTimeout(function() { 
-					document.getElementById("app-loader").src = "";
-					document.getElementById('app-detail-printout').innerHTML = "Unloading Whiteboard-Rails";
+					document.getElementById("app-loader2").src = "";
+					document.getElementById('app-detail-printout2').innerHTML = "Unloading Whiteboard-Rails";
 					console.log("UN-Loading Whiteboard-Rails");
 				},15000);
 
 			} else if (currentSecond == 41) {
-				document.getElementById('app-loader').src = "https://the-projects-rails.herokuapp.com/";
-				document.getElementById('app-detail-printout').innerHTML = "Loading The Projects";
+				document.getElementById('app-loader3').src = "https://the-projects-rails.herokuapp.com/";
+				document.getElementById('app-detail-printout3').innerHTML = "Loading The Projects";
 				console.log("Loading The Projects");
 				setTimeout(function() { 
-					document.getElementById("app-loader").src = "";
-					document.getElementById('app-detail-printout').innerHTML = "Unloading The Projects";
+					document.getElementById("app-loader3").src = "";
+					document.getElementById('app-detail-printout3').innerHTML = "Unloading The Projects";
 					console.log("UN-Loading The Projects");
 				},15000);
 			} else if (currentSecond == 57) {
-				document.getElementById('app-loader').src = "https://chaseterzian.github.io";
-				document.getElementById('app-detail-printout').innerHTML = "Checking chaseterzian.github.io";
+				document.getElementById('app-loader4').src = "https://chaseterzian.github.io";
+				document.getElementById('app-detail-printout4').innerHTML = "Checking chaseterzian.github.io";
 				console.log("Checking chaseterzian.github.io");
 				setTimeout(function() { 
-					document.getElementById("app-loader").src = "";
-					document.getElementById('app-detail-printout').innerHTML = "Unloading chaseterzian.github.io";
+					document.getElementById("app-loader4").src = "";
+					document.getElementById('app-detail-printout4').innerHTML = "Unloading chaseterzian.github.io";
 					console.log("UN-Loading chaseterzian.github.io");
 				}, 1000);
 			} 
